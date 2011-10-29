@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Советы туристам от А до Я" title_url="http://tips.rr34.ru"
+    author="Евгений Куценко" 
+    author_email="newjon4god@gmail.com"
+        description="Каждый день вы сможете получать советы и рекомендации по вопросам связанным с активным туризмом и отдыхом.
+        Пожалуйста, ставьте оценки и оставляйте комментарии — ваше мнение очень важно!" 
+        author_location="http://rr34.ru/"
+        author_link="http://starcoms.ru/"
+        author_affiliation="Веб-разработчик и христианин."
+        category="lifestyle"
+        category2="featured"
+        author_photo="http://gadget-tips.googlecode.com/svn/trunk/userpic.jpg" 
+        screenshot="http://gadget-tips.googlecode.com/svn/trunk/screenshot.png" 
+        thumbnail="http://gadget-tips.googlecode.com/svn/trunk/logo.jpg">
+  <Require feature="dynamic-height"/>
+  <Icon>http://gadget-tips.googlecode.com/svn/trunk/favicon.ico</Icon>
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+    <style>
+    #content_div div {
+    text-align: justify;
+    font: italic 12px 'Verdana';
+    }
+    a, a:hover,  a:active,  a:focus{color:#b7cd20; text-decoration:none}
+   p {margin: 0; margin-bottom: -10px;}
+  .button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  }
+  .button:hover {
+    text-decoration: none;
+  }
+  .button:active {
+    position: relative;
+    top: 1px;
+  }
+  .medium {
+    font-size: 12px;
+    padding: .4em 1.5em .42em;
+  }
+  .white {
+    color: #606060;
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top,  #fff,  #ededed);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+  }
+  .white:hover {
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+    background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+  }
+  .white:active {
+    color: #999;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+    background: -moz-linear-gradient(top,  #ededed,  #fff);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+  }
+    </style>
+<script type="text/javascript">
+  window.onload = function() {
+  gadgets.window.adjustHeight();
+  };
+</script>
+      <div id="content_div">
+      <script language="JavaScript" type="text/javascript" src="http://tips.rr34.ru/forweb"></script>
+      <p align="right"><input type="button" class="button white medium" onclick="javascript:location.reload(true)" value="Другой совет"></p>
+      </div>
+    ]]>
+  </Content>
+</Module>
