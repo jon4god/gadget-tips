@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+ <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
   <ModulePrefs title="Советы туристам от А до Я" title_url="http://tips.rr34.ru"
     author="Евгений Куценко" 
     author_email="newjon4god@gmail.com"
         description="Каждый день вы сможете получать советы и рекомендации по вопросам связанным с активным туризмом и отдыхом.
+        Активный туризм, походы, сплавы, восхождения, туристическое снаряжение, спелеология и многое другое.
         Пожалуйста, ставьте оценки и оставляйте комментарии — ваше мнение очень важно!" 
         author_location="http://rr34.ru/"
         author_link="http://starcoms.ru/"
